@@ -36,7 +36,7 @@
                       <div class="col-sm-2"></div>
                     </div>
                     <center>
-                    <h1>VII OLIMPIADA DE PROGRAMACIÓN</h1>
+                    <h1>VIII OLIMPIADA DE PROGRAMACIÓN</h1>
                     <p class="lead">
                       PARA ESTUDIANTES DE SECUNDARIA 2018
                     </p>
