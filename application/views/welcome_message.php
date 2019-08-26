@@ -38,7 +38,7 @@
                     <center>
                     <h1>VIII OLIMPIADA DE PROGRAMACIÓN</h1>
                     <p class="lead">
-                      PARA ESTUDIANTES DE SECUNDARIA 2018
+                      PARA ESTUDIANTES DE SECUNDARIA 2019
                     </p>
                     
           <a  target="_black" href="dist/convovatoria.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar convocatoria</a>
