@@ -35,8 +35,8 @@
 								<div>
 									<ul class="ace-thumbnails clearfix">
 										<li>
-											<a href="dist/images/gallery/image.jpg" title="Photo Title" data-rel="colorbox">
-												<img width="150" height="150" alt="150x150" src="dist/images/gallery/image.jpg" />
+											<a href="dist/images/gallery/image2.jpg" title="Photo Title" data-rel="colorbox">
+												<img width="150" height="150" alt="150x150" src="dist/images/gallery/image2.jpg" />
 											</a>
 
 											<!--div class="tags">
