@@ -46,9 +46,10 @@
                     </center>
                     <h2>PRESENTACIÓN.-</h2>
                     <p>
-La Olimpiada de Programación para Estudiantes de Secundaria es una competencia que inició el año 2012, orientada a jóvenes estudiantes de secundaria (de 3ro a 6to) que tienen el gusto por la programación. 
-Fomentar la actividad de programación es abrir las puertas a nuevas oportunidades de desarrollo regional y nacional y que mejor que hacerlo con la juventud que son el presente y futuro de nuestra sociedad.
-En ésta “VII Olimpiada de Programación para Estudiantes de Secundaria 2018” esperamos rescatar e incentivar talentos que actualmente son necesarios para una sociedad del siglo XXI.
+El desarrollo tecnológico del siglo XXI ha impactado notablemente en todo el quehacer humano; la humanidad ha tenido un avance acelerado y significativo en todos los niveles. Esto sin duda ha tenido mucho que ver con la creación de las computadoras; el software es uno de los elementos trascendentales de un computador, pues quizá es el aspecto que lo diferencia de las otras máquinas. El desarrollo de software es una de las actividades que ha llevado a muchos países a exportarlo y obtener ingresos importantes; muchas de las empresas o corporaciones más rentables a lo largo del mundo son aquellas que trabajan en el rubro del software.  
+La actividad de programación es un aspecto crucial en el desarrollo del software y fomentar su práctica es abrir las puertas a nuevas oportunidades de desarrollo regional y nacional.
+La Olimpiada de Programación para Estudiantes de Secundaria es una competencia que inició el año 2012, orientada a jóvenes estudiantes de 1ro a 6to de Secundaria que tienen el gusto por la programación. 
+En ésta “VIII Olimpiada de Programación para Estudiantes de Secundaria 2019” esperamos rescatar e incentivar talentos que actualmente son necesarios para una sociedad del siglo XXI.
 
                     <h2>BASES DE LA OLIMPIADA</h2>
                     <p>
