@@ -30,7 +30,7 @@
                       <div class="col-sm-2"></div>
                       <div class="col-xs-12 col-sm-8">
                         <a href="#" class="thumbnail">
-                          <img src="dist/logo2.jpg" alt="VI OLIMPIADA DE PROGRAMACIÓN" width="500">
+                          <img src="dist/logo3.jpg" alt="VI OLIMPIADA DE PROGRAMACIÓN" width="500">
                         </a>
                       </div>
                       <div class="col-sm-2"></div>
@@ -44,7 +44,7 @@
           <a  target="_black" href="dist/convovatoria.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar convocatoria</a>
           <a  target="_black" href="dist/horario.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar horario</a>
                     </center>
-                    <h2>PRESENTACIÓN xxxx</h2>
+                    <h2>PRESENTACIÓN.-</h2>
                     <p>
 La Olimpiada de Programación para Estudiantes de Secundaria es una competencia que inició el año 2012, orientada a jóvenes estudiantes de secundaria (de 3ro a 6to) que tienen el gusto por la programación. 
 Fomentar la actividad de programación es abrir las puertas a nuevas oportunidades de desarrollo regional y nacional y que mejor que hacerlo con la juventud que son el presente y futuro de nuestra sociedad.
