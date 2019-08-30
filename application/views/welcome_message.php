@@ -124,87 +124,24 @@ En ésta “VIII Olimpiada de Programación para Estudiantes de Secundaria 2019�
                     </table>
                   </div><!-- /.span -->
                 </div><!-- /.row -->
-                <h2>VI CAPACITACIÓN </h2>
+                <h2>V CAPACITACIÓN.- </h2>
                 <p>
-                 La capacitación se llevará a cabo en los laboratorios de las carreras de Ingeniería de Sistemas e Ingeniería Informática ubicados en la ciudadela Universitaria.
+                 La capacitación se llevará a cabo en los laboratorios de las carreras de Ingeniería de Sistemas e Ingeniería Informática ubicados en la ciudadela Universitaria, desde el lunes 16 de septiembre. Tendrán derecho a “Certificado de Capacitación” solo aquellos estudiantes que tengan una asistencia mayor o igual a 75%.
                 </p>
                 <p>
                   Los horarios y el Cronograma de Capacitación será publicado en la Web: <a href="http://www.olimpiadaprog.sistemas.edu.bo  ">http://www.olimpiadaprog.sistemas.edu.bo  </a> Los capacitadores serán docentes de las carreras de Ingeniería de Sistemas e Ingeniería Informática de la Facultad Nacional de Ingeniería.
                 </p>
-                <p>La capacitación se organizará de acuerdo a los Niveles:</p>
-                <ul>
-                  <li><b>Nivel Básico.</b> La capacitación se llevará a cabo desde el 1 al 19 de Octubre, dos clases por semana, 90 minutos por clase.</li>
-                  <li><b>Nivel Avanzado.</b> La capacitación se llevará a cabo desde el 12 al 24 de Octubre Las  jornadas estarán orientadas netamente a la resolución de problemas.</li>
-                </ul>
+                <h2>VI.- DEL CONTENIDO TEMÁTICO.-</h2>
                 <p>
-                  En la parte final de la etapa de Capacitación los estudiantes de cada colegio conformarán equipos de 3 personas para el día de la Competencia, debiendo los componentes de cada equipo pertenecer a un mismo Nivel: Básico o Avanzado. En el Nivel avanzado, los estudiantes de 6to de Secundaria no podrán agruparse con estudiantes pertenecientes a otros cursos.
+                 Estructuras Secuenciales, Condicionales, Repetitivas, Vectores (Ordenación y Búsqueda), Operaciones con Matrices, Cadenas y Funciones.
                 </p>
-                <h2>VII.- DEL CONTENIDO TEMÁTICO</h2>
-                <ul>
-                  <li>
-                    <b> Nivel Básico:</b> Estructuras Secuenciales, Condicionales, Repetitivas, Vectores (Ordenación y Búsqueda).
-                  </li>
-                  <li>
-                    <b> Nivel Avanzado: </b>Todo el contenido de Nivel Básico y además: operaciones con Matrices , Strings y Funciones.
-                  </li>
-                </ul>
                 <h2>
-                  VIII. ACERCA DE LA COMPETENCIA
+                  VII. MAS INFORMACIÓN.-
                 </h2>
                 <p>
-                  La competencia se realizará en los laboratorios de las Carreras de Ingeniería de Sistemas e Ingeniería Informática, en la Ciudadela Universitaria de acuerdo al cronograma establecido. El mismo iniciará a las 9:30 de la mañana y la duración de la prueba será de TRES HORAS consecutivas, salvo que el Comité Organizador decida ampliar el plazo.
+                  Dirigirse a Secretaría de la Carrera de Ingeniería de Sistemas e Ingeniería Informática, o comunicarse por teléfono al 5276366.
                 </p>
-                <p>
-                  Durante la Competencia el Comité Organizador propondrá de 3 a 6 problemas, con distinto grado de dificultad. La resolución de los mismos se realizará en el lenguaje de programación C/C++, en el entorno IDE CodeBlocks, utilizados en las principales competencias de programación como ser: OBI, IOI y la ACM-ICPC y Olimpiadas Científicas Plurinacionales de Bolivia.
-                </p>
-                <p>
-                  Al finalizar la competencia se exhibirán los resultados en los respectivos laboratorios.
-                </p>
-                <p>
-                  El “Reglamento General de la Olimpiada” se proporcionará a los equipos durante la Capacitación.
-                </p>
-                <h2>IX. DEL COMITÉ ORGANIZADOR </h2>
-                <p>
-                  El Comité Organizador está formado por los docentes de las carreras de Ingeniería de Sistemas e Ingeniería Informática de la Facultad Nacional de Ingeniería, presididos por el Director de Carrera. 
-                </p>
-                <ul>
-                  <li>M.Sc.Ing.  Julio César Bermúdez Vargas</li>
-                  <li>Ing. Juan Gregorio Choque Uño</li>
-                  <li>Ing. Miguel Ángel Reynolds </li>
-                  <li>Ing. María Angélica Andrade Zeballos </li>
-                  <li>Ing. Roly Gonzalo Guzmán Coronel</li>
-                  <li>Univ. Adimer Paul Chambi Ajata</li>
-                  <li>Univ. Joel Gonzales </li>
-                </ul>
-                <h2>X. DE LA CALIFICACIÓN</h2>
-                <p>
-                  La calificación se realizará mediante un juez virtual, utilizado en competencias de programación a nivel nacional e internacional.
-                </p>
-                <h2>XI. DE LOS PREMIOS</h2>
-                <h4>La premiación se realizará de acuerdo al siguiente detalle:</h4>
-                <ol type="1">
-                  <li>Nivel Básico.</li>
-                  <li>Nivel Avanzado (3ro, 4to o 5to de Secundaria).</li>
-                  <li>Nivel Avanzado (6to de Secundaria).</li>
-                </ol>
-                <p>Se otorgarán los siguientes premios:</p>
-                <ul>
-                  <li>
-                    <b>Primer lugar:</b> Medallas de Oro, Certificado y Premio especial
-                  </li>
-                  <li>
-                    <b>Segundo lugar:</b> Medallas de Plata, Certificado y Premio especial
-                  </li>
-                  <li>
-                    <b>Tercer lugar:</b> Medallas de Bronce, Certificado y Premio especial
-                  </li>
-                  <p>
-                    Los Ganadores del PRIMER LUGAR DEL NIVEL AVANZADO, DE 6TO DE SECUNDARIA podrán beneficiarse con el “Ingreso Libre a la Facultad Nacional de Ingeniería”, en la Carrera de Ingeniería de Sistemas o Ingeniería Informática, en el semestre I/2019.</b>
-                  </p>
-                  <p>Todos los estudiantes que participen de la capacitación recibirán un Certificado de Capacitación.</p>
-                  <p>Los Profesores Tutores de los equipos participantes de la Competencia recibirán un Certificado de Participación.</p>
-                  <p>Cualquier punto no contemplado en la presente convocatoria será absuelto por el Comité Organizador.</p>
-                  <br>
+          
                   <p class="center">
                     M.Sc. Ing. Julio César Bermúdez Vargas  <br>
 Director de Carrera <br>
