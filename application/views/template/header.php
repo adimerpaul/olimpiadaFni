@@ -67,7 +67,7 @@
         </button>
 
         <div class="navbar-header pull-left">
-          <a href="index.html" class="navbar-brand">
+          <a href="<?=base_url()?>" class="navbar-brand">
             <small>
               <img src="<?=base_url()?>dist/logo_small_2017_3.png" width="130">
             </small>

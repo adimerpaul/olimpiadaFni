@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://olimpiadaprog.sistemas.edu.bo/';
-//$config['base_url'] = 'http://10.10.50.215/prog';
+//$config['base_url'] = 'http://olimpiadaprog.sistemas.edu.bo/';
+$config['base_url'] = 'http://localhost/olimpiada';
 
 /*
 |--------------------------------------------------------------------------

@@ -68,7 +68,7 @@
             </a>
 
           </li>
-        <li class="">
+        <!--li class="">
             <a href="<?=base_url()?>Equipos">
                 <i class="menu-icon fa fa-users"></i>
                 <span class="menu-text">
@@ -76,7 +76,7 @@
           </span>
             </a>
 
-        </li>
+        </li-->
           <li class="">
             <a href="<?=base_url()?>Calendario">
               <i class="menu-icon fa fa-calendar"></i>

@@ -34,7 +34,7 @@
                                 <select style="width: 80%"  name="nombret" required id="nombret" class="col-sm-12 col-sm-12">
                                       <option value="">Selecionar</option>
                                       <?php 
-                                      $query=$this->db->query("SELECT * FROM tutor");
+                                      $query=$this->db->query("SELECT * FROM tutor ORDER BY nombre");
                                       foreach ($query->result() as $row)
                                         {
                                           echo "<option value='".$row->idtutor."'>".$row->nombre."</option>";
@@ -97,8 +97,10 @@
                               <div class="form-group">
                                 <label class="control-label col-xs-12 col-sm-2 " for="curso">Curso:</label>
                                 <div class="col-xs-12 col-sm-4">
-                                  <select name="curso" id="curso" required class="col-xm-12 col-sm-12">
+                                  <select name="curso" id="curso" required class="col-xm-12 col-sm-12" required="">
                                     <option value="">Seleccionar</option>
+                                    <option value="1ro de Secundaria">1ro de Secundaria</option>
+                                    <option value="2do de Secundaria">2do de Secundaria</option>
                                     <option value="3ro de Secundaria">3ro de Secundaria</option>
                                     <option value="4to de Secundaria">4to de Secundaria</option>
                                     <option value="5to de Secundaria">5to de Secundaria</option>
@@ -106,7 +108,7 @@
                                   </select>
                                 </div>
                               </div>
-                              <div class="form-group">
+                              <!-- div class="form-group">
                                 <label class="control-label col-xs-12 col-sm-2 " for="nivel">Nivel:</label>
                                 <div class="col-xs-12 col-sm-4">
                                   <select name="nivel" id="nivel" class="col-xm-12 col-sm-12">
@@ -115,7 +117,7 @@
                                   <div class="alert alert-info" id="mensaje1" style="display: none"> Las clases del nivel basico comienzan el 1 de octubre hasta el 19 de octubre</div>
                                   <div class="alert alert-warning" id="mensaje2" style="display: none"> Las clases del nivel avanzado comienzan el 12 de octubre hasta el 24 de octubre </div>
                                 </div>
-                              </div>
+                              </div-->
                               
                               <hr>
                               <div class="form-group">

@@ -29,7 +29,7 @@
 														<th>#</th>
 														<th>Colegio</th>
 														<th>Fomulario nivel Basico</th>
-														<th>Fomulario nivel Avanzado</th>
+														<!--th>Fomulario nivel Avanzado</th-->
 													</tr>
 												</thead>
 
@@ -53,15 +53,18 @@
 																		<i class='ace-icon fa fa-file bigger-130'></i> Nivel Basico
 																	</button>
 															</td>
-															<td>
+															
+														</tr>";
+													}
+													/*
+<td>
 																	<button class='btn btn-success btn-sm' data-toggle='modal' data-target='#tutor'
 																		data-colegio='".$row->nombre."'
 																		data-nivel='Nivel Avanzado'>
 																		<i class='ace-icon fa fa-file bigger-130'></i> Nivel Avanzado
 																	</button>
 															</td>
-														</tr>";
-													}
+													*/
 													?>
 													
 													<!--tr>
