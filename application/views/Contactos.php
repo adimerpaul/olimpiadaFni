@@ -66,6 +66,9 @@
 										69603027 (Adimer Paul Chambi Ajata)</li>
 										<li>
 										<i class="ace-icon fa fa-whatsapp green bigger-150"></i>
+										78602594 (Roberto Suarez Flores)</li>
+										<li>
+										<i class="ace-icon fa fa-whatsapp green bigger-150"></i>
 										67226648 (Ing. María Angélica Andrade Zeballos)</li>
 										<li>
 										<i class="ace-icon fa fa-whatsapp green bigger-150"></i>
