@@ -51,63 +51,44 @@ La actividad de programación es un aspecto crucial en el desarrollo del softwar
 La Olimpiada de Programación para Estudiantes de Secundaria es una competencia que inició el año 2012, orientada a jóvenes estudiantes de 1ro a 6to de Secundaria que tienen el gusto por la programación. 
 En ésta “VIII Olimpiada de Programación para Estudiantes de Secundaria 2019” esperamos rescatar e incentivar talentos que actualmente son necesarios para una sociedad del siglo XXI.
 
-                    <h2>BASES DE LA OLIMPIADA</h2>
-                    <p>
-                      Las Carreras de Ingeniería de Sistemas e Ingeniería Informática dependientes de la Facultad Nacional de Ingeniería de la Universidad Técnica de Oruro convocan a la “VII Olimpiada de Programación para Estudiantes de Secundaria 2018”, destinada a incentivar en los estudiantes la participación activa en esta área de programación y desarrollar habilidades para la resolución de problemas .
-                    </p>
-                    <h2>I. OBJETIVO</h2>
+
+                    <h2>I. OBJETIVO.-</h2>
                       <p>
-                        El objetivo de la Olimpiada es reunir a estudiantes de Secundaria de la ciudad de Oruro para que adquieran nuevas experiencias, compartan sus conocimientos, demuestren sus habilidades y destrezas en el área de la programación, mediante la resolución de problemas.
+                        El objetivo del curso es capacitar a los estudiantes de Secundaria para que adquieran destrezas en el área de la programación y puedan destacarse en la VIII Olimpiada de Programación para Estudiantes de Secundaria 2019, a realizarse el 11 de octubre del presente, según convocatoria a publicarse próximamente.
                       </p>
-                    <h2>II. CATEGORÍAS DE LA OLIMPIADA</h2>
-                    <p> La olimpiada se llevará a cabo en los siguientes niveles:</p>
+                    <h2>II. REQUISITOS PARA PARTICIPAR.-</h2>
+                    <p> Los requisitos que debe cumplir cada participante son los siguientes:</p>
                     <ul>
-                        <li> <b>Nivel Básico.</b> Estudiantes con conocimientos básicos de programación. <br>
-                        Estudiantes de 3ro, 4to o 5to de Secundaria
+                        <li> Ser estudiante matriculado en el Colegio al que representa, en el presente período académico.
                         </li>
-                        <li> <b> Nivel Avanzado.</b>  Estudiantes con conocimientos avanzados de programación. <br>
-                        Estudiantes de 3ro, 4to, 5to o 6to de Secundaria.
+                        <li> Ser estudiante de nivel secundario: de Primero a Sexto.
+                        </li>
+                        <li> Contar con un tutor o tutora, preferentemente profesor(a) de computación del colegio al que representa.
                         </li>
                     </ul> 
-
+                    <h2>III. INSCRIPCIONES.-</h2>
                     <p>
-                    Los estudiantes que hubieran obtenido algún premio (Medalla de Oro, Plata, Bronce o Mención de Honor) en anteriores competencias de programación para estudiantes de Secundaria (IV Olimpiada 2015, V Olimpiada 2016 o VI Olimpiada 2017) deberán inscribirse en el Nivel Avanzado.
-                    </p>
-                    <p>
-                    </p>
-                    <h2>III. REQUISITOS PARA PARTICIPAR</h2>
-                    <p>
-                      Los requisitos que debe cumplir cada participante son los siguientes:
-                    </p>
-                    <ul>
-                      <li>Ser estudiante matriculado en el Colegio al que representa, en el presente período académico.</li>
-                      <li>Elegir un nivel: Avanzado o Básico y una Categoría: 3ro, 4to, 5to o 6to de Secundaria.  </li>
-                      <li>Contar con un tutor o tutora, preferentemente profesor o profesora de computación del colegio al que representa.</li>
-
-                    </ul>
-                    <h2>IV. INSCRIPCIONES</h2>
-                    <p>
-                      Los estudiantes podrán realizar una “Pre-inscripción” en la página Web:  <a href="http://www.olimpiadaprog.sistemas.edu.bo ">http://www.olimpiadaprog.sistemas.edu.bo </a> donde se especificarán: 
+                      Los participantes deberán realizar una “Pre-inscripción” en la página Web: olimpiadaprog.sistemas.edu.bo donde se especificará: 
                     </p>
                     <ol type="a">
-                      <li>Nombre Completo, Cédula de Identidad, Número de Celular y Dirección de Correo Electrónico de cada estudiante inscrito.</li>
-                      <li>Nivel y Curso de acuerdo a inciso II. Niveles De La Olimpiada de la presente convocatoria.
+                      <li>Nombre Completo, Cédula de Identidad, Número de Celular y Dirección de Correo Electrónico.</li>
+                      <li>Año de escolaridad: 1ro, 2do, 3ro , 4to ,5to o 6to de Secundaria.
                       </li>
-                      <li>Nombre Completo y Dirección de Correo Electrónico del Tutor(a): Profesor(a) de Computación o de otra asignatura.
+                      <li>Nombre Completo, Número de Celular y Dirección de Correo Electrónico del Tutor(a): Profesor(a) de Computación o de otra asignatura.
                       </li>
-                      <li>ombre y Teléfono de contacto del Colegio.
+                      <li>Nombre y Teléfono de contacto del Colegio.
                       </li>
                       <li>Horario en el que pasarán los cursos de Capacitación.
                       </li>
                     </ol>
                     <p>
-                      Cada Profesor tutor deberá imprimir la planilla de “Pre-inscripción” debidamente llenada incluyendo a todos sus estudiantes inscritos por nivel y categoría y agregar la firma del Director(a) y sello del Colegio.
+                      Cada Tutor deberá imprimir las planillas de “Pre-inscripción” de todos los participantes de su colegio, debidamente llenadas, con la firma del Director(a) y sello del Colegio. 
                     </p>
                     <p>
-                      Para formalizar su “Inscripción” el (la) “Profesor(a) Tutor(a)”, deberá presentar la planilla de “Pre-inscripción” firmada y sellada en las oficinas de la Carrera de Ingeniería de Sistemas e Ingeniería Informática (Ciudadela Universitaria). <br>
-                      El monto de inscripción por estudiante será de Bs.- 15 (Quince bolivianos), <b>pudiendo registrar cada colegio una cantidad ilimitada de estudiantes por Nivel y por Categoría. </b>
+                      Para formalizar su “Inscripción” el (la) “Profesor(a) Tutor(a)”, deberá presentar dichas planillas en Secretaría  de la Carrera de Ingeniería de Sistemas e Ingeniería Informática (Ciudadela Universitaria).  <br>
+                      El monto de inscripción por participante será de Bs.- 10 (Diez bolivianos). Se entregará certificado de capacitación.  </b>
                     </p>
-                    <h2>V. CRONOGRAMA DE ACTIVIDADES </h2>
+                    <h2>IV. CRONOGRAMA DE ACTIVIDADES.- </h2>
 
                     <div class="row">
                   <div class="col-xs-12">
