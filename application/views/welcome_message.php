@@ -106,60 +106,20 @@ En ésta “VIII Olimpiada de Programación para Estudiantes de Secundaria 2019�
                       <tbody>
                         <tr>
                           <td>1</td>
-                          <td colspan="2" >Difusión De la Convocatoria en Colegios</td>
-                          <td>Desde el  19  hasta el  28 de Septiembre de 2018</td>
+                          <td colspan="2" >Pre-inscripción de estudiantes vía Internet e Inscripción en Secretaria de Ing. de Sistemas e Ing. Informática (Ciudadela Universitaria).</td>
+                          <td>Del 2 de septiembre al 13 de septiembre(Hrs: 17:30) </td>
                         </tr>
                         <tr>
                           <td>2</td>
-                          <td colspan="2" >Pre-inscripción de estudiantes (A través de Internet).</td>
-                          <td>Desde  el 19  de septiembre hasta el  19 de Octubre de 2018</td>
+                          <td colspan="2" >Capacitación de los estudiantes.</td>
+                          <td>Del  16 de septiembre  al 9 de Octubre </td>
                         </tr>
                         <tr>
                           <td>3</td>
-                          <td colspan="2" >Inscripción de estudiantes en Secretaria de Ing. De Sistemas e Ing. Informática (Ciudadela Universitaria).</td>
-                          <td>Desde  el 19 de septiembre hasta el  19 de Octubre de 2018 (Hrs: 17:30)</td>
+                          <td colspan="2" >Entrega de certificados de capacitación en Secretaria de Ing. De Sistemas e Ing. Informática (Ciudadela Universitaria).</td>
+                          <td>A partir del 10 de octubre</td>
                         </tr>
-                        <tr>
-                          <td>4</td>
-                          <td colspan="2">
-                            Capacitación de los estudiantes.<br>
-                            <i>Podrán participar de la capacitación los estudiantes inscritos hasta antes de que inicie la Capacitación.</i>
-                          </td>
-                          <td>Desde el  1  hasta el 24 de Octubre de 2018</td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td colspan="2">Warm Up (Ensayo Final)</td>
-                          <td>Jueves 25 de Octubre de 2018(Turno mañana  o tarde) </td>
-                        </tr>
-                        <tr>
-                          <td rowspan="2">6</td>
-                          <td rowspan="2">Competencia  de Programación </td>
-                          <td>
-                            Acreditación de Equipos. <br>
-                            (Ciudadela Universitaria).
-                          </td>
-                          <td>
-                            Viernes 26 de Octubre de 2018 <br>Desde  Horas 8:30 hasta 9:30
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Realización de la prueba. <br>(Ciudadela Universitaria).
-                          </td>
-                          <td>
-                            Viernes 26 de Octubre de 2018 <br>
-                            Desde  Horas 9:30 hasta 12:30 
-
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>7</td>
-                          <td colspan="2">Entrega de premios y certificados. (Ciudadela Universitaria).</td>
-                          <td>
-                            A definir por  el Comité Organizador
-                          </td>
-                        </tr>
+                        
                       </tbody>
                     </table>
                   </div><!-- /.span -->
