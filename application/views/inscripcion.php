@@ -74,14 +74,15 @@
                               </div>
                               <hr>
                               <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-2 " for="cedula">Cedula de identidad del estudiante:</label>
+                                <div class="col-xs-12 col-sm-4">
+                                  <input type="text" name="cedula" id="cedula" required placeholder="Cedula de identidad" class="col-xm-12 col-sm-12">
+                                </div>
                                 <label class="control-label col-xs-12 col-sm-2 " for="nombre">Nombre completo estudiante:</label>
                                 <div class="col-xs-12 col-sm-4">
                                   <input type="text" name="nombre" id="nombre" required placeholder="Apellidos nombre(s)" class="col-xm-12 col-sm-12">
                                 </div>
-                                <label class="control-label col-xs-12 col-sm-2 " for="cedula">Cedula de identidad:</label>
-                                <div class="col-xs-12 col-sm-4">
-                                  <input type="text" name="cedula" id="cedula" required placeholder="Cedula de identidad" class="col-xm-12 col-sm-12">
-                                </div>
+                                
                               </div>
                               <div class="form-group">
                                 <label class="control-label col-xs-12 col-sm-2 " for="celular">Numero de celular estudiante:</label>
@@ -289,3 +290,57 @@
   </div>
 </div>
 
+<script type="text/javascript">
+  window.onload=function (e) {
+    $('#nombret').change(function (e) {
+      $.ajax({
+        url:'Inscripcion/dattutor/'+$(this).val(),
+        success:function (e) {
+          if (e!=0) {
+          var dato=JSON.parse(e);
+          console.log(dato);
+          $('#correot').val(dato.correo);
+          $('#celulart').val(dato.celular);
+          }else{
+          $('#correot').val('');
+          $('#celulart').val('');  
+          }
+        }
+      });
+    });
+    $('#colegio').change(function (e) {
+      $.ajax({
+        data:'colegio='+$(this).val(),
+        type:'POST',
+        url:'Inscripcion/datcolegio',
+        success:function (e) {
+          //console.log(e);
+          if (e!=0) {
+          var dato=JSON.parse(e);
+          console.log(dato);
+          $('#telefono').val(dato.telefono);
+          }else{
+          $('#telefono').val('');
+          }
+        }
+      });
+    });
+    $('#cedula').keyup(function (e) {
+      $.ajax({
+        data:'colegio='+$(this).val(),
+        type:'POST',
+        url:'Inscripcion/datcolegio',
+        success:function (e) {
+          //console.log(e);
+          if (e!=0) {
+          var dato=JSON.parse(e);
+          console.log(dato);
+          $('#telefono').val(dato.telefono);
+          }else{
+          $('#telefono').val('');
+          }
+        }
+      });
+    });
+  }
+</script>

@@ -10,6 +10,27 @@ public function index()
 		$data['js']="<script src='dist/js/inscripcion.js'></script>";
 		$this->load->view('template/footer',$data);
 	}
+	public function dattutor($id='')
+	{
+		$query=$this->db->query("SELECT * FROM registro2 WHERE nombret='$id'");
+		if ($query->num_rows()>0) {
+			echo json_encode($query->result_array()[0]);
+		}else{
+			echo "0";
+		}
+		
+	}
+	public function datcolegio($id='')
+	{
+		$colegio=$_POST['colegio'];
+		$query=$this->db->query("SELECT * FROM registro2 WHERE colegio='$colegio'");
+		if ($query->num_rows()>0) {
+			echo json_encode($query->result_array()[0]);
+		}else{
+			echo "0";
+		}
+		
+	}
 	public function registro()
 	{
 		
