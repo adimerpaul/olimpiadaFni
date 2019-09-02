@@ -108,6 +108,9 @@
                                     <option value="6to de Secundaria">6to de Secundaria</option>
                                   </select>
                                 </div>
+                                <div class="col-xs-12 col-sm-4">
+                                  <div class="alert alert-info">Seleccionar un curso para ver horarios</div>
+                                </div>
                               </div>
                               <!-- div class="form-group">
                                 <label class="control-label col-xs-12 col-sm-2 " for="nivel">Nivel:</label>
@@ -299,8 +302,8 @@
           if (e!=0) {
           var dato=JSON.parse(e);
           console.log(dato);
-          $('#correot').val(dato.correo);
-          $('#celulart').val(dato.celular);
+          $('#correot').val(dato.correot);
+          $('#celulart').val(dato.celulart);
           }else{
           $('#correot').val('');
           $('#celulart').val('');  
@@ -317,7 +320,7 @@
           //console.log(e);
           if (e!=0) {
           var dato=JSON.parse(e);
-          console.log(dato);
+          //console.log(dato);
           $('#telefono').val(dato.telefono);
           }else{
           $('#telefono').val('');
@@ -327,17 +330,19 @@
     });
     $('#cedula').keyup(function (e) {
       $.ajax({
-        data:'colegio='+$(this).val(),
-        type:'POST',
-        url:'Inscripcion/datcolegio',
+        url:'Inscripcion/datestudiante/'+$(this).val(),
         success:function (e) {
           //console.log(e);
           if (e!=0) {
           var dato=JSON.parse(e);
-          console.log(dato);
-          $('#telefono').val(dato.telefono);
+          //console.log(dato);
+          $('#nombre').val(dato.nombre);
+          $('#celular').val(dato.celular);
+          $('#correo').val(dato.correo);
           }else{
-          $('#telefono').val('');
+          $('#nombre').val('');
+          $('#celular').val('');
+          $('#correo').val('');
           }
         }
       });

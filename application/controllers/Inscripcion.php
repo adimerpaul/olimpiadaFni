@@ -16,6 +16,21 @@ public function index()
 		if ($query->num_rows()>0) {
 			echo json_encode($query->result_array()[0]);
 		}else{
+		$query=$this->db->query("SELECT * FROM registro WHERE nombret='$id'");
+		if ($query->num_rows()>0) {
+			echo json_encode($query->result_array()[0]);
+		}else{
+			echo "0";
+		}
+		}
+		
+	}
+	public function datestudiante($id='')
+	{
+		$query=$this->db->query("SELECT * FROM registro2 WHERE cedula='$id'");
+		if ($query->num_rows()>0) {
+			echo json_encode($query->result_array()[0]);
+		}else{
 			echo "0";
 		}
 		

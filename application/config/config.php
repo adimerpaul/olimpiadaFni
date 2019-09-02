@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://olimpiadaprog.sistemas.edu.bo/';
-$config['base_url'] = 'http://localhost/olimpiada';
+$config['base_url'] = 'http://10.10.50.205/olimpiada';
 
 /*
 |--------------------------------------------------------------------------
