@@ -23,53 +23,24 @@ jQuery(function($) {
     },
     events: [
       {
-      title: 'Difusión De la Convocatoria en Colegios.',
-      start: '2018-09-17',
-      end: '2018-09-25',
+      title: 'Pre-inscripción de estudiantes vía Internet e Inscripción en Secretaria de Ing. de Sistemas e Ing. Informática (Ciudadela Universitaria).',
+      start: '2019-09-02',
+      end: '2019-09-13',
       color: '#0d259c'
       },
       {
-      title: 'Pre-inscripción de estudiantes (A través de Internet).',
-      start: '2018-09-19',
-      end: '2018-10-19',
+      title: 'Capacitación de los estudiantes.',
+      start: '2019-09-16',
+      end: '2019-10-09',
       color: '#0663b8'
       },
       {
-      title: 'Inscripción de estudiantes en Secretaria de Ing. De Sistemas e Ing. Informática (Ciudadela Universitaria).',
-      start: '2018-09-19',
-      end: '2018-10-19',
+      title: 'Entrega de certificados de capacitación en Secretaria de Ing. De Sistemas e Ing. Informática (Ciudadela Universitaria).',
+      start: '2019-10-10',
+      end: '2019-10-11',
       color: '#57d843'
       },
-      {
-      title: 'Capacitación de los estudiantes.',
-      start: '2018-10-1',
-      end: '2018-10-24',
-      color: '#57d843'
-      },
-      {
-      title: 'Warm Up (Ensayo Final).',
-      start: '2018-10-25',
-      end: '2018-10-25',
-      color: '#ef8383'
-      },
-      {
-      title: 'Acreditación de Equipos.',
-      start: '2018-10-26',
-      end: '2018-10-26',
-      color: '#f06261'
-      },
-      {
-      title: 'Realización de la prueba.',
-      start: '2018-10-20',
-      end: '2018-10-20',
-      color: '#a958a5'
-      },
-      {
-      title: 'Entrega de premios y certificados. (Ciudadela Universitaria).',
-      start: '2018-11-8',
-      end: '2018-11-8',
-      color: '#613e97'
-      },
+    
     ],
     
     
