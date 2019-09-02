@@ -41,7 +41,7 @@
                       PARA ESTUDIANTES DE SECUNDARIA 2019
                     </p>
                     
-          <a  target="_black" href="dist/convovatoria.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar convocatoria</a>
+          <a  target="_black" href="dist/convocatoria.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar convocatoria</a>
           <a  target="_black" href="dist/horario.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar horario</a>
                     </center>
                     <h2>PRESENTACIÓN.-</h2>
