@@ -347,5 +347,119 @@
         }
       });
     });
+
+
+    $('#formulario').submit(function (e) {
+      
+  var parametros={
+    'nombre':$('#nombre').val(),
+        'cedula':$('#cedula').val(),
+        'celular':$('#celular').val(),
+        'correo':$('#correo').val(),
+        'curso':$('#curso').val(),
+        'nivel':$('#nivel').val(),
+        'nombret':$('#nombret').val(),
+        'correot':$('#correot').val(),
+        'colegio':$('#colegio').val(),
+        'telefono':$('#telefono').val(),
+        'horario':$('#horario').val(),
+        'celulart':$('#celulart').val(),
+  }
+  $.ajax({
+    data:parametros,
+    url:'inscripcion/registro',
+    type:'post',
+    success: function(e){
+      console.log(e);
+      toastr["success"]("Registrado corretamente!!!");
+      $('#nombre').prop('value','');
+      $('#cedula').prop('value','');
+      $('#celular').prop('value','');
+      $('#correo').prop('value','');
+    }
+  }).fail(function () {
+    toastr["warning"]("Ya se registro al estudiante, o algo salio mal!!!");
+  });
+  $('#my-modal').modal('hide');
+  $.ajax({
+      url:'inscripcion/cuposbasico',
+      type:'post',
+      beforeSend:function (argument) {
+        toastr["info"]("cargando");
+      },
+      success: function(e){
+        document.getElementById('tabla').innerHTML=e;
+      }
+    });
+      $.ajax({
+      url:'inscripcion/horariobasico',
+      type:'post',
+      success: function(e){
+        horario.innerHTML=e;
+      }
+    }); 
+  return false;
+
+  //if ($('#nivel').val()=="Nivel Basico") {
+    $.ajax({
+      url:'inscripcion/cuposbasico',
+      type:'post',
+      beforeSend:function (argument) {
+        toastr["info"]("cargando");
+      },
+      success: function(e){
+        document.getElementById('tabla').innerHTML=e;
+      }
+    });
+      document.getElementById('mensaje1').style.display = 'block';
+      document.getElementById('mensaje2').style.display = 'none';
+      $.ajax({
+      url:'inscripcion/horariobasico',
+      type:'post',
+      success: function(e){
+        horario.innerHTML=e;
+      }
+    }); 
+  //}else{
+    $.ajax({
+      url:'inscripcion/cuposavanzado',
+      type:'post',
+      beforeSend:function (argument) {
+        toastr["info"]("cargando");
+      },
+      success: function(e){
+        document.getElementById('tabla').innerHTML=e;
+      }
+    });
+      document.getElementById('mensaje1').style.display = 'none';
+      document.getElementById('mensaje2').style.display = 'block';
+      $.ajax({
+      url:'inscripcion/horarioavanzado',
+      type:'post',
+      success: function(e){
+        horario.innerHTML=e;
+      }
+    }); 
+//
+  //}
+  /*$.ajax({
+      url:'inscripcion/cuposbasico',
+      type:'post',
+      beforeSend:function (argument) {
+        toastr["info"]("cargando");
+      },
+      success: function(e){
+        document.getElementById('tabla').innerHTML=e;
+      }
+    });
+      $.ajax({
+      url:'inscripcion/horariobasico',
+      type:'post',
+      success: function(e){
+        horario.innerHTML=e;
+      }
+    }); */
+})
+
   }
 </script>

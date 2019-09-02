@@ -28,7 +28,7 @@
 													<tr>
 														<th>#</th>
 														<th>Colegio</th>
-														<th>Fomulario nivel Basico</th>
+														<th>Fomulario </th>
 														<!--th>Fomulario nivel Avanzado</th-->
 													</tr>
 												</thead>
@@ -50,7 +50,7 @@
 																	<button class='btn btn-success btn-sm' data-toggle='modal' data-target='#tutor'
 																		data-colegio='".$row->nombre."'
 																		data-nivel='Nivel Basico'>
-																		<i class='ace-icon fa fa-file bigger-130'></i> Nivel Basico
+																		<i class='ace-icon fa fa-file bigger-130'></i> Formulario
 																	</button>
 															</td>
 															
@@ -161,7 +161,7 @@
                 <select name="nombret" required id="nombret" class="col-sm-12 col-sm-12">
                       <option value="">Selecionar</option>
                       <?php 
-                      $query=$this->db->query("SELECT * FROM tutor");
+                      $query=$this->db->query("SELECT * FROM tutor ORDER BY nombre");
                       foreach ($query->result() as $row)
                         {
                           echo "<option value='".$row->idtutor."'>".$row->nombre."</option>";

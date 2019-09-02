@@ -18,7 +18,7 @@ class Verificacion extends CI_Controller {
 		$nombret=$this->input->post('nombret');
 		$this->load->model('Equipo');
 		$tutor=$this->Equipo->consulta("nombre","tutor","idtutor",$nombret);
-		$query=$this->db->query("SELECT * FROM registro WHERE nombret='$nombret'");
+		$query=$this->db->query("SELECT * FROM registro WHERE nombret='$nombret' AND colegio='$colegio' ORDER BY curso");
 		$cantidad=$query->num_rows();
 		require('fpdf.php');		
 		$pdf = new FPDF('P','mm','Letter');
@@ -64,7 +64,7 @@ class Verificacion extends CI_Controller {
 		$pdf->SetFont('Arial','B',12);
 		$pdf->Cell(88,1,utf8_decode('Nombres estudiantes '));
 		$pdf->Cell(55,1,utf8_decode("Colegio"));
-		$pdf->Cell(20,1,utf8_decode("Celular"));
+		$pdf->Cell(22,1,utf8_decode("Celular"));
 		$pdf->Cell(10,1,utf8_decode("Curso"));
 		$pdf->SetFont('Arial','',11);
 		$pdf->Ln(5);
@@ -72,7 +72,7 @@ class Verificacion extends CI_Controller {
 		{
 				$pdf->Cell(88,1,utf8_decode($row->nombre));
 				$pdf->Cell(55,1,utf8_decode($row->colegio));
-				$pdf->Cell(20,1,utf8_decode($row->celular));
+				$pdf->Cell(22,1,utf8_decode($row->celular));
 				$pdf->Cell(10,1,utf8_decode( substr($row->curso,0,3 )));
 		        $pdf->Ln(5);
 		}
