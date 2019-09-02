@@ -141,9 +141,9 @@ var horario=document.getElementById('horario');
 //  });
 curso.addEventListener('change',
   function(){
-    var selectedOption = this.options[nivel.selectedIndex];
-    console.log(selectedOption.text);
-    if (selectedOption.text == "Nivel Basico") {
+    // var selectedOption = this.options[nivel.selectedIndex];
+    // console.log(selectedOption.text);
+    // if (selectedOption.text == "Nivel Basico") {
       //document.getElementById('tablanivel1').style.display = 'block';
       //document.getElementById('tablanivel2').style.display = 'none';
       		$.ajax({
@@ -156,8 +156,8 @@ curso.addEventListener('change',
 				document.getElementById('tabla').innerHTML=e;
 			}
 		});
-      document.getElementById('mensaje1').style.display = 'block';
-      document.getElementById('mensaje2').style.display = 'none';
+      // document.getElementById('mensaje1').style.display = 'block';
+      // document.getElementById('mensaje2').style.display = 'none';
       $.ajax({
 			url:'inscripcion/horariobasico',
 			type:'post',
@@ -165,27 +165,27 @@ curso.addEventListener('change',
 				horario.innerHTML=e;
 			}
 		}); 
-    }else{
-      //document.getElementById('tablanivel1').style.display = 'none';
-      //document.getElementById('tablanivel2').style.display = 'block';
-      $.ajax({
-			url:'inscripcion/cuposavanzado',
-			type:'post',
-			beforeSend:function (argument) {
-				toastr["info"]("cargando");
-			},
-			success: function(e){
-				document.getElementById('tabla').innerHTML=e;
-			}
-		});
-      document.getElementById('mensaje1').style.display = 'none';
-      document.getElementById('mensaje2').style.display = 'block';
-      $.ajax({
-			url:'inscripcion/horarioavanzado',
-			type:'post',
-			success: function(e){
-				horario.innerHTML=e;
-			}
-		}); 
-    }
+    // }else{
+    //   //document.getElementById('tablanivel1').style.display = 'none';
+    //   //document.getElementById('tablanivel2').style.display = 'block';
+    //   $.ajax({
+	// 		url:'inscripcion/cuposavanzado',
+	// 		type:'post',
+	// 		beforeSend:function (argument) {
+	// 			toastr["info"]("cargando");
+	// 		},
+	// 		success: function(e){
+	// 			document.getElementById('tabla').innerHTML=e;
+	// 		}
+	// 	});
+    //   document.getElementById('mensaje1').style.display = 'none';
+    //   document.getElementById('mensaje2').style.display = 'block';
+    //   $.ajax({
+	// 		url:'inscripcion/horarioavanzado',
+	// 		type:'post',
+	// 		success: function(e){
+	// 			horario.innerHTML=e;
+	// 		}
+	// 	});
+    // }
   });
