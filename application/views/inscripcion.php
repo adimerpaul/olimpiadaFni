@@ -235,7 +235,7 @@
                       </div>
 
                       <div class="modal-body">
-                      Porfavor verificar sus datos que sean los correctos
+                      ¿Esta seguro(a) de que todos los datos ingresados son correctos?
                       </div>
 
                       <div class="modal-footer">
