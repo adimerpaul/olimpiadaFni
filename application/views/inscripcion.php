@@ -25,7 +25,7 @@
                 <!-- PAGE CONTENT BEGINS -->
                 <h2>FORMULARIO DE INSCRIPCIÓN </h2>
                 <p class="lead">
-                  VII OLIMPIADA DE PROGRAMACIÓN 2018
+                  VIII CURSOS DE CAPACITACION 2019
                 </p>
                 <form class="form-horizontal" id="formulario" method="POST">
                             <div class="form-group">

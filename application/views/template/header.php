@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta charset="utf-8" />
-    <title>VII OLIMPIADA DE PROGRAMACIÓN</title>
+    <title>VIII OLIMPIADA DE PROGRAMACIÓN</title>
     <link rel="shortcut icon" type="image/x-icon" href="<?=base_url()?>dist/fni.ico" />
 
     <meta name="description" content="This is page-header (.page-header &gt; h1)" />
@@ -78,10 +78,10 @@
         <div class="navbar-buttons navbar-header pull-right" role="navigation">
           <ul class="nav ace-nav">
               <li class="purple dropdown-modal">
-                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                      <i class="ace-icon fa fa-bell icon-animated-bell"></i>
-                      <span class="badge badge-important">8</span>
-                  </a>
+<!--                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">-->
+<!--                      <i class="ace-icon fa fa-bell icon-animated-bell"></i>-->
+<!--                      <span class="badge badge-important">8</span>-->
+<!--                  </a>-->
 
                   <ul class="dropdown-menu-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-close">
                       <li class="dropdown-header">

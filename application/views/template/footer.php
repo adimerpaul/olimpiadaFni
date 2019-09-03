@@ -4,8 +4,8 @@
         <div class="footer-inner">
           <div class="footer-content">
             <span class="bigger-120">
-              <span class="blue bolder">INGENIERÍA DE SISTEMAS E INGENIERÍA INFORMÁTICA</span>
-              copyright &copy; 2017-2018
+              <span class="blue bolder">Developer Chambi Ajata Adimer Paul</span>
+              copyright &copy; 2019
             </span>
 
             &nbsp; &nbsp;

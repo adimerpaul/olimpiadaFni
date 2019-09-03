@@ -15,8 +15,7 @@
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
 										<div class="table-header btn-info">
-											Porfavor busque o seleccionar su colegio e imprima  el formulario nivel 1 y nivel 2
-											y sellarlo con el colegio respectivo!
+											Porfavor busque o seleccionar su colegio e imprima  el formulario y sellarlo con el colegio respectivo
 										</div>
 
 										<!-- div.table-responsive -->
