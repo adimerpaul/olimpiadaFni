@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-//	'hostname' => 'localhost',
-//	'username' => 'root',
-//	'password' => '',
-//	'database' => 'olimpiada',
+	/*'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'olimpiada',*/
 	'hostname' => '50.28.39.119',
 	'username' => 'fniutoed_root',
 	'password' => 'olimpiadasprog2018',

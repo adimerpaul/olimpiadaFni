@@ -245,10 +245,10 @@ public function index()
 	{
 		//$horario=($this->input->post('horario'));
 		//$horario="Martes 8:30-10:00 - Jueves 8:30-10:00(Ing. Villanueva LSIA-1)";
-		$query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 8:30-10:00 - Viernes 10:30-12:00(Ing. Huanca LLIKA)'");
-		$huanca=40-$query->num_rows();
-		$query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 10:30-12:00 - Miercoles 10:30-12:00(Ing. Menacho LSIB-1)'");
-		$menacho=50-$query->num_rows();
+		//$query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 8:30-10:00 - Viernes 10:30-12:00(Ing. Huanca LLIKA)'");
+		//$huanca=40-$query->num_rows();
+		$query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 14:30-16:00(Ing. Menacho LSIB-1)'");
+		$menacho=19-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 16:30-18:00 - Miercoles 16:30-18:00(Ing. Ureña LSIB-2)'");
 		$urena=40-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 08:30-10:00 - Jueves 08:30-10:00(Ing. Villanueva SI-LSIA4)'");
@@ -257,14 +257,15 @@ public function index()
 		$salgado=40-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Martes 16:30-18:00(Ing. Miranda SI-MECA)'");
 		$miranda=24-$query->num_rows();
-		$query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 08:30-10:00 - Viernes 08:30-10:00(Ing. Escalante SI-LSIA1)'");
+		$query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 16:30-18:00 - Viernes 14:30-16:00(Ing. Escalante SI-LSIA1)'");
 		$escalante=42-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Viernes 14:30-16:00 - Viernes 16:30-18:00(Ing. Chinche LSIB-2)'");
-        $chiche=40-$query->num_rows();
+        $chiche=41-$query->num_rows();
+        $query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)'");
+        $roly=0-$query->num_rows();
 		echo "<tr>".
                 "<td rowspan='2'>08:30 - 10:00</td>".
-                "<td style='background: #948a54; color: white'>Ing. Huanca LLIKA <br> 
-                    <span class='badge badge-danger'> Cupos=".$huanca."</span></td>".
+                "<td></td>".
                 "<td style='background: #da9694; color: white'>Ing. Villanueva SI-LSIA4<br> 
                     <span class='badge badge-danger'> Cupos=".$villanueva."</span></td>".
                 "<td></td>".
@@ -276,24 +277,19 @@ public function index()
             "<td></td>".
             "<td></td>".
             "<td></td>".
-            "<td style='background: #76933c; color: white'>Ing. Escalante SI-LSIA1<br> 
-                <span class='badge badge-danger'> Cupos=".$escalante."</span></td>".
-            "<td style='background: #76933c; color: white'>Ing. Escalante SI-LSIA1<br> 
-                <span class='badge badge-danger'> Cupos=".$escalante."</span></td>".
+            "<td></td>".
+            "<td></td>".
             "</tr>".
             "<tr>".
                 "<td>10:30 - 12:00</td>".
-            "<td style='background: #c0504d; color: white'>Ing. Menacho LSIB-1<br> 
-                <span class='badge badge-danger'> Cupos=".$menacho."</span></td>".
+            "<td></td>".
                 "<td></td>".
-            "<td style='background: #c0504d; color: white'>Ing. Menacho LSIB-1<br> 
-                <span class='badge badge-danger'> Cupos=".$menacho."</span></td>".
+            "<td></td>".
                 "<td></td>".
-            "<td style='background: #948a54; color: white'>Ing. Huanca LLIKA <br> 
-                    <span class='badge badge-danger'> Cupos=".$huanca."</span></td>".
+            "<td></td>".
             "</tr>".
               "<tr>".
-                "<td rowspan='2'>14:30 - 16:00</td>".
+                "<td rowspan='3'>14:30 - 16:00</td>".
                 "<td></td>".
                 "<td style='background: #e26b0a; color: white' >Ing. Salgado LLIKA<br> 
                 <span class='badge badge-danger'> Cupos=".$salgado."</span></td>".
@@ -304,11 +300,20 @@ public function index()
               "</tr>".
               "<tr>".
                 "<td></td>".
-                "<td style='background: #ffff00; color: white' >Ing. Miranda LAB-REDES<br> 
+                "<td style='background: #ffff00; color: black' >Ing. Miranda LAB-REDES<br> 
                 <span class='badge badge-danger'> Cupos=".$miranda."</span></td>".
                 "<td></td>".
                 "<td></td>".
+                "<td style='background: #c0504d; color: white'>Ing. Menacho LSIB-1<br> 
+                <span class='badge badge-danger'> Cupos=".$menacho."</span></td>".
+              "</tr>".
+              "<tr>".
                 "<td></td>".
+                "<td></td>".
+                "<td></td>".
+                "<td></td>".
+                "<td style='background: #76933c; color: white'>Ing. Escalante SI-LSIA1<br> 
+                <span class='badge badge-danger'> Cupos=".$escalante."</span></td>".
               "</tr>".
 
               "<tr>".
@@ -318,18 +323,29 @@ public function index()
                 "<td></td>".
             "<td style='background: #538dd5; color: white'>Ing. Ureña LSIB-2<br> 
                 <span class='badge badge-danger'> Cupos=".$urena."</span></td>".
-                "<td></td>".
+                "<td style='background: #c0504d; color: white'>Ing. Menacho LSIB-1<br> 
+                <span class='badge badge-danger'> Cupos=".$menacho."</span></td>".
             "<td style='background: #e26b0a; color: white' >Ing. Salgado LLIKA<br> 
                 <span class='badge badge-danger'> Cupos=".$salgado."</span></td>".
               "</tr>".
             "<tr>".
             "<td></td>".
-            "<td style='background: #ffff00; color: white' >Ing. Miranda LAB-REDES<br> 
+            "<td style='background: #ffff00; color: black' >Ing. Miranda LAB-REDES<br> 
                 <span class='badge badge-danger'> Cupos=".$miranda."</span></td>".
-                "<td></td>".
-                "<td></td>".
+                "<td style='background: #76933c; color: white'>Ing. Escalante SI-LSIA1<br> 
+                <span class='badge badge-danger'> Cupos=".$escalante."</span></td>".
+                "<td style='background: #da9694; color: white'>Ing. Guzman LLIKA<br> 
+                        <span class='badge badge-danger'> Cupos=".$roly."</span></td>".
             "<td style='background: #808080; color: white' >Ing. Chiche LSIB-2<br> 
                 <span class='badge badge-danger'> Cupos=".$chiche."</span></td>".
+              "</tr>".
+              "<tr>".
+              	"<td></td>".
+              	"<td></td>".
+              	"<td></td>".
+              	"<td></td>".
+              	"<td style='background: #da9694; color: white'>Ing. Guzman LLIKA<br> 
+                        <span class='badge badge-danger'> Cupos=".$roly."</span></td>".
               "</tr>";
 	}
 	public function cupos($value='')
@@ -413,11 +429,8 @@ public function index()
 	}
 	public function horariobasico($value='')
 	{
-
-        $query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 8:30-10:00 - Viernes 10:30-12:00(Ing. Huanca LLIKA)'");
-        $huanca=40-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 10:30-12:00 - Miercoles 10:30-12:00(Ing. Menacho LSIB-1)'");
-        $menacho=50-$query->num_rows();
+        $menacho=19-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 16:30-18:00 - Miercoles 16:30-18:00(Ing. Ureña LSIB-2)'");
         $urena=40-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 08:30-10:00 - Jueves 08:30-10:00(Ing. Villanueva SI-LSIA4)'");
@@ -426,18 +439,16 @@ public function index()
         $salgado=40-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Martes 16:30-18:00(Ing. Miranda SI-MECA)'");
         $miranda=24-$query->num_rows();
-        $query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 08:30-10:00 - Viernes 08:30-10:00(Ing. Escalante SI-LSIA1)'");
+        $query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 16:30-18:00 - Viernes 14:30-16:00(Ing. Escalante SI-LSIA1)'");
         $escalante=42-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Viernes 14:30-16:00 - Viernes 16:30-18:00(Ing. Chinche LSIB-2)'");
         $chiche=40-$query->num_rows();
-		if ($huanca>0) {
-            $huanca="<option value='Lunes 8:30-10:00 - Viernes 10:30-12:00(Ing. Huanca LLIKA)'>".
-                        "Lunes 8:30-10:00 - Viernes 10:30-12:00(Ing. Huanca LLIKA)".
-                        "</option>";
-		}
+        $query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)'");
+        $roly=0-$query->num_rows();
+	
 		if ($menacho>0) {
-			$menacho="<option value='Lunes 10:30-12:00 - Miercoles 10:30-12:00(Ing. Menacho LSIB-1)'>".
-                        "Lunes 10:30-12:00 - Miercoles 10:30-12:00(Ing. Menacho LSIB-1)".
+			$menacho="<option value='Jueves 16:30-18:00 - Viernes 14:30-16:00(Ing. Menacho LSIB-1)'>".
+                        "Jueves 16:30-18:00 - Viernes 14:30-16:00(Ing. Menacho LSIB-1)".
                         "</option>";
 		}
 		if ($villanueva>0) {
@@ -456,8 +467,8 @@ public function index()
                         "</option>";
 		}
 		if ($escalante>0) {
-			$escalante="<option value='Jueves 08:30-10:00 - Viernes 08:30-10:00(Ing. Escalante SI-LSIA1)'>".
-                        "Jueves 08:30-10:00 - Viernes 08:30-10:00(Ing. Escalante SI-LSIA1)".
+			$escalante="<option value='Miercoles 16:30-18:00 - Viernes 14:30-16:00(Ing. Escalante SI-LSIA1)'>".
+                        "Miercoles 16:30-18:00 - Viernes 14:30-16:00(Ing. Escalante SI-LSIA1)".
                         "</option>";
 		}
 		if ($chiche>0) {
@@ -465,14 +476,20 @@ public function index()
                         "Viernes 14:30-16:00 - Viernes 16:30-18:00(Ing. Chinche LSIB-2)".
                         "</option>";
 		}
+		if ($roly>0) {
+			$roly="<option value='Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)'>".
+                        "Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)".
+                        "</option>";
+		}
 		echo "<option value=''>Seleccionar</option>".
-                        $huanca.
                         $menacho.
                         $villanueva.
                         $salgado.
                         $miranda.
                         $escalante.
-                        $chiche;
+                        $chiche.
+                        $roly.
+                        $urena;
                         
 	}
 	public function cuposavanzado($value='')
