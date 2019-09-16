@@ -27,6 +27,10 @@
                 <p class="lead">
                   VIII CURSOS DE CAPACITACION 2019
                 </p>
+                <p class="lead">
+                      <h1>"A solicitud de muchos colegios que no pudieron inscribir a estudiantes en el turno de la tarde(ya que todos los paralelos están llenos), la organización de las olimpiadas informa que se habilitarán nuevos  paralelos hasta el día lunes 16 de septiembre y se les dará plazo adecuado para que se registren."
+                      </h1>
+                    </p>
                 <form class="form-horizontal" id="formulario" method="POST">
                             <div class="form-group">
                               <label class="control-label col-xs-12 col-sm-2 " for="nombret">Nombre completo Tutor:</label>
@@ -251,6 +255,7 @@
                     </div><!-- /.modal-content -->
                   </div><!-- /.modal-dialog -->
                 </div>
+              
 
                                 </div>
                               </div>

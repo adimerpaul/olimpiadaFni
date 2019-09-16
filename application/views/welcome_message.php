@@ -36,10 +36,24 @@
                       <div class="col-sm-2"></div>
                     </div>
                     <center>
+                      <div style="margin:0px auto;width:auto;text-align:center;padding:10px;background-color:yellow;border:1px solid black;">
+                      <p class="lead">
+                      <H1><b>COMUNICADO</b>
+                      </H1>
+                      <h
+                    </p>
+                    <p class="lead">
+                      
+                      <H1>"A solicitud de muchos colegios que no pudieron inscribir a estudiantes en el turno de la tarde(ya que todos los paralelos están llenos), la organización de las olimpiadas informa que se habilitarán nuevos  paralelos hasta el día lunes 16 de septiembre y se les dará plazo adecuado para que se registren."
+                      </H1>
+                      <h
+                    </p>
+                    </div>
                     <h1>VIII OLIMPIADA DE PROGRAMACIÓN</h1>
                     <p class="lead">
                       PARA ESTUDIANTES DE SECUNDARIA 2019
                     </p>
+          
                     
           <a  target="_black" href="dist/convocatoria.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar convocatoria</a>
           <a  target="_black" href="dist/horario.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar horario</a>

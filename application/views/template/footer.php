@@ -4,7 +4,7 @@
         <div class="footer-inner">
           <div class="footer-content">
             <span class="bigger-120">
-              <span class="blue bolder">Developer Chambi Ajata Adimer Paul</span>
+              <span class="blue bolder">Developer Chambi Ajata Adimer</span>
               copyright &copy; 2019
             </span>
 
