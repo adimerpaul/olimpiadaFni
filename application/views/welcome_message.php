@@ -44,7 +44,7 @@
                     </p>
                     <p class="lead">
                       
-                      <H1>"A solicitud de muchos colegios que no pudieron inscribir a estudiantes en el turno de la tarde(ya que todos los paralelos están llenos), la organización de las olimpiadas informa que se habilitarán nuevos  paralelos hasta el día lunes 16 de septiembre y se les dará plazo adecuado para que se registren."
+                      <H1>"Ya estan disponibles nuevos horarios por la tarde. Favor registrarse a la brevedad posible."
                       </H1>
                       <h
                     </p>
