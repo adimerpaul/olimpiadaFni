@@ -54,6 +54,11 @@ class Verificacion extends CI_Controller {
 		$pdf->Cell(28,1,utf8_decode('TUTOR: '));
 		$pdf->SetFont('Arial','',11);
 		$pdf->Cell(98,1,utf8_decode($tutor));
+        $pdf->Ln(10);
+        $pdf->SetFont('Arial','B',12);
+        $pdf->Cell(28,1,utf8_decode('COLEGIO: '));
+        $pdf->SetFont('Arial','',11);
+        $pdf->Cell(98,1,utf8_decode($colegio));
 /*
 		$pdf->SetFont('Arial','B',12);
 		$pdf->Cell(28,1,utf8_decode('NIVEL: '));
@@ -62,16 +67,16 @@ class Verificacion extends CI_Controller {
 */
 		$pdf->Ln(10);
 		$pdf->SetFont('Arial','B',12);
-		$pdf->Cell(88,1,utf8_decode('Nombres estudiantes '));
-		$pdf->Cell(55,1,utf8_decode("Colegio"));
+		$pdf->Cell(60,1,utf8_decode('Nombres estudiantes '));
+		$pdf->Cell(85,1,utf8_decode("horario"));
 		$pdf->Cell(22,1,utf8_decode("Celular"));
 		$pdf->Cell(10,1,utf8_decode("Curso"));
-		$pdf->SetFont('Arial','',11);
+		$pdf->SetFont('Arial','',8);
 		$pdf->Ln(5);
 		foreach ($query->result() as $row)
 		{
-				$pdf->Cell(88,1,utf8_decode($row->nombre));
-				$pdf->Cell(55,1,utf8_decode($row->colegio));
+				$pdf->Cell(60,1,utf8_decode($row->nombre));
+				$pdf->Cell(85,1,utf8_decode($row->horario));
 				$pdf->Cell(22,1,utf8_decode($row->celular));
 				$pdf->Cell(10,1,utf8_decode( substr($row->curso,0,3 )));
 		        $pdf->Ln(5);
