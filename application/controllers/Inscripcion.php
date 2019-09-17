@@ -258,12 +258,12 @@ public function index()
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Martes 16:30-18:00(Ing. Miranda SI-MECA)'");
 		$miranda=24-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 16:30-18:00 - Viernes 14:30-16:00(Ing. Escalante SI-LSIA1)'");
-		$escalante=42-$query->num_rows();
+		$escalante=43-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Viernes 14:30-16:00 - Viernes 16:30-18:00(Ing. Chinche LSIB-2)'");
         $chiche=40-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)'");
         $roly=40-$query->num_rows();
-        $query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Miercoles 14:30-16:00(Ing. Choque HARDWARE)'");
+        $query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 14:30-16:00 - Jueves 14:30-16:00(Ing. Choque HARDWARE)'");
         $choque=50-$query->num_rows();
 		echo "<tr>".
                 "<td rowspan='2'>08:30 - 10:00</td>".
@@ -310,6 +310,7 @@ public function index()
                 <span class='badge badge-danger'> Cupos=".$menacho."</span></td>".
               "</tr>".
               "<tr>".
+                "<td></td>".
                 "<td></td>".
                 "<td style='background: #9C27B0; color: white'>Ing. Choque HARDWARE<br> 
                 <span class='badge badge-danger'> Cupos=".$choque."</span></td>".
@@ -444,12 +445,12 @@ public function index()
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Martes 16:30-18:00(Ing. Miranda SI-MECA)'");
         $miranda=24-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 16:30-18:00 - Viernes 14:30-16:00(Ing. Escalante SI-LSIA1)'");
-        $escalante=42-$query->num_rows();
+        $escalante=43-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Viernes 14:30-16:00 - Viernes 16:30-18:00(Ing. Chinche LSIB-2)'");
         $chiche=40-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)'");
         $roly=40-$query->num_rows();
-        $query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Miercoles 14:30-16:00(Ing. Choque HARDWARE)'");
+        $query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 14:30-16:00 - Jueves 14:30-16:00(Ing. Choque HARDWARE)'");
         $choque=50-$query->num_rows();
 	
 		if ($menacho>0) {
@@ -459,7 +460,7 @@ public function index()
 		}
 		if ($choque>0) {
 			$choque="<option value='Martes 14:30-16:00 - Miercoles 14:30-16:00(Ing. Choque HARDWARE)'>".
-                        "Martes 14:30-16:00 - Miercoles 14:30-16:00(Ing. Choque HARDWARE)".
+                        "Miercoles 14:30-16:00 - Jueves 14:30-16:00(Ing. Choque HARDWARE)".
                         "</option>";
 		}
 		if ($villanueva>0) {
