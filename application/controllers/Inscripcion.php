@@ -245,8 +245,8 @@ public function index()
 	{
 		//$horario=($this->input->post('horario'));
 		//$horario="Martes 8:30-10:00 - Jueves 8:30-10:00(Ing. Villanueva LSIA-1)";
-		//$query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 8:30-10:00 - Viernes 10:30-12:00(Ing. Huanca LLIKA)'");
-		//$huanca=40-$query->num_rows();
+		//$query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 14:30-16:00 - Jueves 16:30-18:00(Ing. Huanca SID-1)'");
+		//$huanca=30-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 14:30-16:00(Ing. Menacho LSIB-1)'");
 		$menacho=52-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 16:30-18:00 - Miercoles 16:30-18:00(Ing. Ureña LSIB-2)'");
@@ -264,7 +264,7 @@ public function index()
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)'");
         $roly=40-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 14:30-16:00 - Jueves 14:30-16:00(Ing. Choque HARDWARE)'");
-        $choque=50-$query->num_rows();
+        $choque=10-$query->num_rows();
 		echo "<tr>".
                 "<td rowspan='2'>08:30 - 10:00</td>".
                 "<td></td>".
@@ -316,7 +316,7 @@ public function index()
                 <span class='badge badge-danger'> Cupos=".$choque."</span></td>".
                 "<td style='background: #9C27B0; color: white'>Ing. Choque HARDWARE<br> 
                 <span class='badge badge-danger'> Cupos=".$choque."</span></td>".
-                "<td></td>".
+      
                 "<td style='background: #76933c; color: white'>Ing. Escalante SI-LSIA1<br> 
                 <span class='badge badge-danger'> Cupos=".$escalante."</span></td>".
               "</tr>".
@@ -365,8 +365,8 @@ public function index()
 		$helgero=24-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Miercoles 14:30-16:00(Ing. Salgado LLIKA)'");
 		$salgado=40-$query->num_rows();
-		$query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 14:30-16:00 - Viernes 14:30-16:00(Ing. Huanca LLIKA)'");
-		$huanca=40-$query->num_rows();
+		$query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 14:30-16:00 - Jueves 16:30-18:00(Ing. Huanca SID-1)'");
+		$huanca=30-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Miercoles 14:30-16:00(Ing. Miranda LSIS-1)'");
 		$miranda=40-$query->num_rows();
 		$query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 14:30-16:00 - Jueves 16:30-18:00(Ing. Guzman LSIB-1)'");
@@ -436,6 +436,8 @@ public function index()
 	{
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 14:30-16:00(Ing. Menacho LSIB-1)'");
         $menacho=52-$query->num_rows();
+       // $query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 14:30-16:00 - Jueves 16:30-18:00(Ing. Huanca SID-1)'");
+       // $huanca=30-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Lunes 16:30-18:00 - Miercoles 16:30-18:00(Ing. Ureña LSIB-2)'");
         $urena=40-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Martes 08:30-10:00 - Jueves 08:30-10:00(Ing. Villanueva SI-LSIA4)'");
@@ -451,7 +453,7 @@ public function index()
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)'");
         $roly=40-$query->num_rows();
         $query=$this->db->query("SELECT * FROM registro WHERE horario='Miercoles 14:30-16:00 - Jueves 14:30-16:00(Ing. Choque HARDWARE)'");
-        $choque=50-$query->num_rows();
+        $choque=10-$query->num_rows();
 	
 		if ($menacho>0) {
 			$menacho="<option value='Jueves 16:30-18:00 - Viernes 14:30-16:00(Ing. Menacho LSIB-1)'>".
@@ -493,6 +495,11 @@ public function index()
                         "Jueves 16:30-18:00 - Viernes 16:30-18:00(Ing. Guzman LLIKA)".
                         "</option>";
 		}
+		//if ($huanca>0) {
+		//	$huanca="<option value='Miercoles 14:30-16:00 - Jueves 16:30-18:00(Ing. Huanca SID-1)'>".
+        //                "Miercoles 14:30-16:00 - Jueves 16:30-18:00(Ing. Huanca SID-1)".
+        //                "</option>";
+		//}
 		echo "<option value=''>Seleccionar</option>".
                         $menacho.
                         $choque.
@@ -502,6 +509,7 @@ public function index()
                         $escalante.
                         $chiche.
                         $roly.
+                       // $huanca.
                         $urena;
                         
 	}
