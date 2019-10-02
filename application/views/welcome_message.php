@@ -44,7 +44,7 @@
                     </p>
                     <p class="lead">
                       
-                      <H1>"Ya estan disponibles nuevos horarios por la tarde. Favor registrarse a la brevedad posible."
+                      <H1>"Descarga la convocatoria a la VIII OLIMPIADA DE PROGRAMACIÓN para estudiantes de secundaria 2019 aqui abajo."
                       </H1>
                       <h
                     </p>
@@ -55,8 +55,8 @@
                     </p>
           
                     
-          <a  target="_black" href="dist/convocatoria.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar convocatoria</a>
-          <a  target="_black" href="dist/horario.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar horario</a>
+          <a  target="_black" href="dist/convocatoria.pdf" class="btn btn-info btn-lg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar convocatoria VIII Olimpiada de programación</a>
+      
                     </center>
                     <h2>PRESENTACIÓN.-</h2>
                     <p>
